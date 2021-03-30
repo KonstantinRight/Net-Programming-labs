@@ -1,5 +1,4 @@
-body
-{
+body{
 	background-color: #1f1f1f;
     color:#bebebe;
 }
@@ -8,13 +7,14 @@ body
     width:33%;
     text-align: center;
 }
-.menu a:link, .menu a:visited{
+a:link, a:visited{
     color:#bebebe;
 }
-.menu a:hover{
+a:hover{
     color:white;
 }
 
 hr{
     color:#bebebe;
+    size:1px;
 }
