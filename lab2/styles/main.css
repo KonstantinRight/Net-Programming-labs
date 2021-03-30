@@ -18,3 +18,30 @@ hr{
     color:#bebebe;
     size:1px;
 }
+
+h2{
+    font-size:18px;
+    font-weight:400;
+}
+
+ul
+{
+    font-size: 15px;    
+	color: #4da3d4;
+	list-style-image: url(../img/circle.png);
+}
+
+#shortDesc{
+    color:#b3b3b3;
+    font-size:14px;
+    font-style:italic;
+    line-height: 16px;
+}
+
+#fullDesc{
+    color:#969696;
+    font-size:16px;
+    font-weight:400;
+    line-height: 24px;
+    text-align: left;
+}
