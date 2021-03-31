@@ -37,12 +37,6 @@ img{
     border-color: #bebebe;
 }
 
-#logo{
-    width:5%;
-    border:0px;
-    border-radius:0%;
-}
-
 input, textarea{
     width:15%;
     height:20px;
@@ -59,6 +53,17 @@ textarea{
     background: #1f1f1f3f;
     color: white;
     border-color: #bebebe;
+}
+
+#email:focus{
+    color:#4da3d4;
+    background-color: #000000;
+}
+
+#logo{
+    width:5%;
+    border:0px;
+    border-radius:0%;
 }
 
 #bigImg{
