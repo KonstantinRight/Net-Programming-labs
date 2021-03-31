@@ -40,6 +40,10 @@ img{
     border-color: #bebebe;
 }
 
+img:hover{
+    border-color: transparent;
+}
+
 input, textarea{
     width:15%;
     height:20px;
