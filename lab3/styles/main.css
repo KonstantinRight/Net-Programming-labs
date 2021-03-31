@@ -7,6 +7,9 @@ body{
     width:33%;
     text-align: center;
 }
+td{
+    text-align:center;
+}
 a:link, a:visited{
     color:#bebebe;
 }
@@ -43,10 +46,12 @@ input, textarea{
     background: #1f1f1f;
     color: white;
     border-color: #bebebe;
+    text-transform: capitalize;
 }
 input::placeholder, textarea::placeholder{
     color:#bebebe;
 }
+
 textarea{
     width:25%;
     height:100px;
