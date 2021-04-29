@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Брелок Monokuma</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <style>  p:first-letter 
+        {
+            font-size: 1.1em;
+            font-family:cursive;
+        } 
+    </style>
+</head>
+<header>
+    <div align="middle">
+        <img src="img/logo.png" id="logo" alt="logo">
+    </div>
+    <table class="text" width = "100%">
+        <tr>
+         <td class="menu"><a href="index.html">Главная</a></td>
+         <td class="menu"><a href="catalogue.html">Каталог</a></td>
+         <td class="menu"><a href="contacts.html">Контакты</a></td>
+        </tr>
+    </table>
+    <hr/>
+</header>
+<body>
+    <h1 align="middle">Брелок Monokuma</h1>
+    <h2>Описание товара</h2>
+    <a href="img/kuma.jpg" target="_blank">
+        <img src="img/kuma.jpg" id="bigImg" alt="Monokuma picture">
+    </a>
+    <p id="shortDesc">
+        Брелок Monokuma для ключей, телефона или рюкзака
+    </p>
+    <h2>Цена</h2>
+    <p>80 рублей</p>
+    <h2>Оплата</h2>
+    
+    <div id='wm-widget' style='width: 305px;height: 183px;'></div>
+       <script type='text/javascript' src='https://merchant.webmoney.ru/conf/lib/widgets/wmApp.js?v=1.5'></script>
+       <script type='text/javascript'>
+           window.webmoney.widgets().PWYW.create(
+               {
+                   "lang":"ru","data":{"paymentType":"wm","amount":"80","amountReadonly":true,"purse":"R613108135396","desc":"Оплата товара"},"style":{"title":"","titleNum":1}
+               }
+               ).mount('wm-widget')
+       </script>
+   
+    <h2>Характеристики товара</h2>
+    <table border="1">
+        <tr>
+            <td>Высота</th> <td>Ширина</td> <td>Толщина</td>
+        </tr>
+        <tr>
+            <td>4</td> <td>2</td><td>0.2</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Материал: ПВХ</li>
+        <li>Подвеска: Есть</li>
+    </ul>
+    <h2>Подробное описание товара</h2>
+    <p id="fullDesc">
+        Брелок с персонажем Monokuma из популярной франшизы Danganronpa. Сделан из резины и имеет подвеску для удобного прикрепления к любому объекту.
+    </p>
+</body>
+<footer>
+    <hr size="3" color="#0" />
+    <p align="middle">&copy Все права защищены</p>
+</footer>
