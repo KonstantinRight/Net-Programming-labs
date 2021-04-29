@@ -37,13 +37,13 @@ ul
 	list-style-image: url(../img/circle.png);
 }
 
-img{
+.catimg{
     border-radius: 10%;
     border: 5px solid;
     border-color: #bebebe;
 }
 
-img:hover{
+.catimg:hover{
     border-color: transparent;
 }
 
