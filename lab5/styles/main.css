@@ -95,3 +95,8 @@ textarea{
     line-height: 24px;
     text-align: left;
 }
+
+nav.navbar .dropdown:hover > .dropdown-menu
+{
+ display: block; 
+} 
