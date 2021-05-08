@@ -399,3 +399,21 @@ bar{
       margin-right: 78px;
       margin-bottom: 80px;
   }
+
+  footer{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    
+    color: #989898;
+
+    padding-top:80px;
+    padding-left: 405px;
+    padding-right: 405px
+  }
+
+  footer hr{
+      margin-bottom: 30px;
+  }
