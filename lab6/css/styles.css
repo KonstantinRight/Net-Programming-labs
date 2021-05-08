@@ -80,7 +80,11 @@ ul{
 }
 
 a{
-    color:white
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:#D1A954
 }
 
 .header__item:last-child{
@@ -89,9 +93,13 @@ a{
 
 .header__phone{
     margin-left: 167px;
+    text-decoration: underline;
+    text-decoration-color: #D1A954;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }
 
-.intro{
+.fscreen{
     height: 100vh;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(../img/1.png) no-repeat center;
     background-size: cover;
@@ -105,4 +113,86 @@ a{
     height:100vh;
     width:150px;
     color: white;
+}
+
+.leftbartext{
+    white-space: nowrap;
+    margin-top: 383px;
+    left: 62px;
+    top: 625px;
+
+    /* p / 18b */
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+
+    transform: rotate(-90deg);
+
+}
+
+bar{
+    border-left:3px solid #C4C4C4;
+	width: 3px;
+	height: 80px;
+	position: absolute;
+	margin-top: 100px;
+	left: 75px;
+}
+
+.iconbar{
+    margin-top:220px;
+    margin-left: 62px;
+    align-items: center;
+    width: 26px;
+}
+
+.icon{
+    margin-top: 30px;
+    align-self: center;
+
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#vk{
+    background-image: url(../img/icons/vk.svg);
+}
+#vk:hover{
+    background-image:url(../img/icons/vk-hover.svg)
+}
+#inst{
+    background-image: url(../img/icons/inst.svg);
+}
+#inst:hover{
+    background-image:url(../img/icons/inst-hover.svg)
+}
+#fb{
+    background-image: url(../img/icons/fb.svg);
+}
+#fb:hover{
+    background-image:url(../img/icons/fb-hover.svg)
+}
+#yt{
+    background-image: url(../img/icons/youtube.svg);
+}
+#yt:hover{
+    background-image:url(../img/icons/youtube-hover.svg)
+}
+
+.rating{
+    height: 100vh;
+    background:#333333;
+    background-size: cover;
 }
