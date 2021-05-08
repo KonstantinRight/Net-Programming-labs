@@ -352,3 +352,50 @@ bar{
     display:flex;
     align-content:flex-start;
 }
+
+.partners{
+    height: 100vh;
+    background:#333333;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.partnersTitle{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #FFFFFF;
+}
+
+.partnersTitle:before {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* gold */
+    color: #D1A954;
+    content: "Партнеры ";
+  }
+
+  .partnersLogos{
+    padding-right: 370px;
+    padding-left: 410px;
+    padding-top: 100px;
+  }
+
+  .logo{
+      margin-right: 78px;
+      margin-bottom: 80px;
+  }
