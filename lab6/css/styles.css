@@ -100,8 +100,8 @@ a:hover{
 }
 
 .fscreen{
-    height: 100vh;
-    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(../img/1.png) no-repeat center;
+    height: 1045px;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(../img/bg.png) no-repeat center;
     background-size: cover;
 }
 
@@ -191,8 +191,101 @@ bar{
     background-image:url(../img/icons/youtube-hover.svg)
 }
 
+.desc{
+    width: 540px;
+    height: 296px;
+    display:inline-block;
+    
+}
+
+#descTitle{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 117px;
+    
+    color: #FFFFFF;
+}
+
+#descText{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    width:540px;
+    margin-top: 30px;
+
+    color: #FFFFFF;
+}
+
+.tButton{
+    margin-top:49px;
+    background-color: #D1A954;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 50px;
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.tButton:hover{
+    cursor:pointer;
+    color:#D1A954;
+    background-color:white;
+}
+
+.descWrapper{
+    margin-top: 190px;
+    margin-left: 405px;
+    display:flex;
+    align-content: flex-start;
+}
+
+.poster{
+    display:inline-block;
+    margin-left: 125px;
+    width: 370px;
+    height: 490px;
+}
+
+
 .rating{
-    height: 100vh;
+    height: 1045px;
     background:#333333;
     background-size: cover;
+}
+
+.listButton{
+    background:transparent;
+    border: none;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+.listButton:hover{
+    cursor:pointer;
+    color:white;
 }
